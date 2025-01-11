@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+    .TextScrollEffect{
+        height: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .TextScrollHeading{
+        font-size: 25px !important;
+        margin: 0 !important;
+        word-wrap: break-word !important;
+    }
+    .textSectionClass{
+        width: 90% !important;
+        margin-top: 20px !important;
+    }
+    .textSectionClass p{
+        line-height: 25px !important;
+        font-size: 15px !important;
+    }
+}

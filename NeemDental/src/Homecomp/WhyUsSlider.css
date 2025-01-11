@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Gilda;
+    src: url(../Fonts/GildaDisplay.woff2);
+}
+
+.slider-container{
+    /* height: 90vh; */
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    background-color: #222222;
+}
+
+.non-sl{
+    width: 50% !important;
+    margin-top: 100px;
+    /* border: 1px solid red */
+}
+.sl{
+    width: 60% !important;
+    margin-top: 100px;
+    /* border: 1px solid green */
+}
+
+.sliderwhyus{
+    width: 100% !important;
+    height: 400px !important;
+    /* position: relative; */
+    /* background-color: red; */
+}
+
+.sliderwhyusmob{
+    width: 100% !important;
+    height: 400px !important;
+    display: none;
+    /* position: relative; */
+    /* background-color: red; */
+}
+
+.sl-div{
+    width: 100%;
+    height: 400px;
+    /* position: relative; */
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    gap: 20px;
+}
+.sl-div div{
+    width: 100%;
+    height: 100% !important;
+    background-color: #fff;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Change the color of inactive dots */
+.slick-dots li button:before {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #222222;
+}
+
+/* Change the color of active dot */
+.slick-dots li.slick-active button:before {
+    background-color: #c4a44f; /* Set your preferred active dot color */
+    color: #c4a44f;
+}
+
+.headingfont, .parafont{
+    font-family: Gilda;
+}
+
+@media only screen and (max-width: 600px){
+    .slider-container{
+        width: 100% !important;
+        height: 130vh !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .non-sl{
+        width: 100% !important;
+    }
+    .sl{
+        width: 100% !important;
+    }
+    .headingfont{
+        font-size: 18px !important;
+    }
+    .parafont{
+        font-size: 15px !important;
+    }
+    .sliderwhyus{
+        display: none;
+    }
+    .sliderwhyusmob{
+        display: block;
+        margin-top: -50px !important;
+    }
+    .timingTwowhyus{
+        display: none !important;
+    }
+}

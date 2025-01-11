@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url('../Fonts/LibreFranklin/LibreFranklin-Regular.ttf');
+  }
+
+.servicepagehead{
+    font-family: LibreFranklin !important;
+    font-weight: 100 !important;
+}
+
+.img1{
+    margin-top: -100px;
+    width: 100% !important;
+    /* height: 100% !important; */
+    object-fit: cover !important;
+    scale: 1.1;
+}
+.img2{
+    width: 100% !important;
+    /* height: 100% !important; */
+    object-fit: cover !important;
+    scale: 1.5;
+}
+.img3{
+    width: 100% !important;
+    /* height: 100% !important; */
+    object-fit: cover !important;
+    scale: 1.5;
+}
+.img4{
+    width: 100% !important;
+    /* height: 100% !important; */
+    object-fit: cover !important;
+    scale: 2.2;
+}
+.img5{
+    margin-top: 50px;
+    width: 100% !important;
+    /* height: 100% !important; */
+    object-fit: cover !important;
+    scale: 1.2 !important;
+    object-position: 100% 110%;
+}
+.img6{
+    width: 100% !important;
+    /* height: 100% !important; */
+    object-fit: cover !important;
+    scale: 1.7 !important;
+    object-position: 100% 110%;
+}
+.img7{
+    width: 100% !important;
+    /* height: 100% !important; */
+    object-fit: cover !important;
+    scale: 1.2 !important;
+    object-position: 100% 110%;
+}
+
+@media only screen and (max-width: 600px) {
+    [data-scroll] {
+        transform: none !important;
+        transition: none !important;
+    }
+
+    [data-scroll-speed] {
+        transform: none !important;
+        transition: none !important;
+    }
+
+    .rctimg{
+        min-height: 60vh !important;
+    }
+
+    .ServiceMainOne{
+        height: 30vh !important;
+        padding-top: 12vh !important;
+        padding-bottom:0 !important;
+    }
+
+    .servicepagehead{
+        font-size: 45px !important;
+    }
+
+    .ServiceMainInner{
+        gap: 80px !important;
+    }
+
+    .ServiceMainTwo,.ServiceMainThree,.ServiceMainFour,.ServiceMainFive,.ServiceMainSix,.ServiceMainSeven,.ServiceMainEight{
+        height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .ServiceMainTwo div,.ServiceMainThree div,.ServiceMainFour div,.ServiceMainFive div,.ServiceMainSix div,.ServiceMainSeven div,.ServiceMainEight div{
+        width: 100%;
+    }
+
+    .ServiceMainThree,.ServiceMainFive,.ServiceMainSeven{
+        flex-direction: column-reverse !important;
+    }
+}

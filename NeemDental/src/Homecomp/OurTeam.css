@@ -1,0 +1,32 @@
+.btnhover:hover{
+    background-color: #313131;
+    color: #f9fcfd;
+    transition: 250ms ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    .OurTeamMain{
+        margin-top: 10vh !important;
+    }
+    .OurTeamTop{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .OurTeamBottom{
+        height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .OurTeamBottom div{
+        width: 100% !important;
+    }
+    .OurTeamBottomTwo{
+        width: 100% !important;
+        margin-top: 20px !important;
+        position: relative !important;
+    }
+
+    .OurTeamTop h1{
+        font-size: 45px !important;
+    }
+}

@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+    .OurServicesMain{
+        width: 95% !important;
+        margin: auto !important;
+        margin-top: 10vh !important;
+    }
+    .OurServicesSection{
+        width: 95% !important;
+        margin: auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .OurServicesTop,.OurServicesBottom{
+        width: 100% !important;
+    }
+    .OurServicesHeadDiv h1{
+        font-size: 45px !important;
+    }
+    .OurServicesMiddle{
+        display: none !important;
+    }
+    .elem{
+        border: 2px solid gray !important;
+        border-radius: 10px !important;
+    }
+    .imgelem{
+        width: 40% !important;
+    }
+    .imgelem img{
+        width: 50% !important;
+        padding: 0;
+    }
+}

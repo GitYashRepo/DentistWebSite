@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+    .WhatWeDoMain{
+        height: 100% !important;
+    }
+    .WhatWeDoInnerMain{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .WhatWeDoTop{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .WhatWeDoRight{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .WhatWeDoRight div{
+        margin-bottom: 20px;
+        width: 100% !important;
+    }
+    .WhatWeDoBottom{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .WhatWeDoBLeft{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .WhatWeDoBLeft div{
+        margin-bottom: 20px;
+        width: 100% !important;
+    }
+    .WhatWeDoBRight{
+        margin: 0px !important;
+    }
+
+    .WhatWeDoLeftHeadingBox h1{
+        font-size: 45px !important;
+    }
+}

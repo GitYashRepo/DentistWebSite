@@ -1,0 +1,229 @@
+@font-face {
+    font-family: refirbished;
+    src: url(./Fonts/refirbished.woff2);
+}
+@font-face {
+    font-family: Barlowthin;
+    src: url(./Fonts/Barlow/Barlow-Light.ttf);
+}
+@font-face {
+    font-family: Barlowbold;
+    src: url(./Fonts/Barlow-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    font-family: "Roslindale Display Condensed";
+    cursor: default !important;
+    background-color: #fff;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  body::-webkit-scrollbar{
+    display: none;
+  }
+
+  .nav {
+    margin: auto;
+    /* margin-top: 10px; */
+    width: 100% !important;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    font-weight: 100;
+    position: sticky;
+    /* position: absolute; */
+    top: 0;
+    background: rgba( 255, 255, 255, 0.3 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    /* border-radius: 10px; */
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+
+  .mobcallbtn{
+    display: none !important;
+  }
+
+  .navtext{
+    color: #aa8453 !important;
+    font-weight: Barlowbold !important;
+    font-weight: 900 !important;
+    font-size: 30px !important;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: refirbished;
+  }
+
+  .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+  }
+
+  .nav-item {
+    margin: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: Barlowthin;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000;
+    transition: all 250ms ease-in-out !important;
+    font-size: 18px;
+  }
+
+  .nav-item:hover{
+    color: #aa8453;
+    font-weight: 700 !important;
+  }
+
+  .nav-itemTwo:hover{
+    color: #aa8453 !important;
+    /* font-size: 30px; */
+  }
+
+  .slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform-origin: bottom;
+    z-index: 999;
+  }
+
+  .slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform-origin: top;
+    z-index: 999;
+  }
+  .logoNamePhone{
+    display: none;
+  }
+
+@media only screen and (max-width: 600px) {
+    /* .nav-link img{
+        width: 70px !important;
+    } */
+     .logo .nav-link img{
+        margin-left: 0px !important;
+     }
+     .mobcallbtn{
+        display: flex !important;
+        z-index: 9999999999999 !important;
+     }
+     .MenuButtonNav{
+        margin-right: 0px !important;
+     }
+    .sticky-navbar{
+        display: none !important;
+        background-color: #fff;
+    }
+    .navtext{
+        /* display: none; */
+        font-size: 32px !important;
+        font-weight: 900 !important;
+        font-family: Barlowbold;
+    }
+    .nav{
+        width: 100% !important;
+        /* height: 100% !important; */
+        position: fixed !important;
+        top: 0 !important;
+        margin-top: 0px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        background-color: #fff !important;
+        /* border-radius: 0px 0px 20px 20px !important; */
+    }
+    .nav-links{
+        display: none !important;
+    }
+    .navBtn{
+        display: none !important;
+    }
+    .PhoneNav{
+        width: 100% !important;
+        margin: auto !important;
+        height: 100vh !important;
+        z-index: 99999999999 !important;
+        background-color: #fff !important;
+        top: 0;
+        position: fixed !important;
+    }
+
+    .nav-item{
+        background-color: #fff !important;
+    }
+    /* CSS for Fade In and Fade Out */
+    .fade-in {
+        animation: fadeIn 0.5s forwards; /* 0.5s fade-in */
+    }
+
+    .fade-out {
+        animation: fadeOut 0.5s forwards; /* 0.5s fade-out */
+    }
+
+    .slide-in{
+        width: 100% !important;
+        height: 100vh !important;
+    }
+    .slide-out{
+        width: 100% !important;
+        height: 100vh !important;
+    }
+    .transitionLogo{
+        margin-top: -30vh !important;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px); /* Slight upward motion */
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        to {
+            opacity: 0;
+            transform: translateY(-10px); /* Slight upward motion */
+        }
+    }
+
+}

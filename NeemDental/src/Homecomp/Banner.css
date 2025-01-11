@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Gilda Display;
+    src: url(../Fonts/GildaDisplay.woff2);
+}
+
+.bannertextmain{
+    font-family: Gilda Display !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .BannerHome{
+        height: 50vh !important;
+    }
+    .BannerHomeVideoDiv{
+        padding-top: 80px !important;
+        height: 50vh !important;
+    }
+    .BannerHomeVideo{
+        width: 100% !important;
+        height: 50vh !important;
+    }
+    .BannervideoTextDiv{
+        margin-top: 100px;
+        top: 100%;
+        bottom: 0 !important;
+    }
+    .BannervideoTextDivinner{
+        width: 100% !important;
+    }
+    .BannervideoTextDivStars{
+        margin-bottom: 0px !important;
+    }
+    .BannervideoTextDivNeem h1{
+        margin-bottom: 0px !important;
+        font-size: 16px !important;
+        font-stretch: 0px !important;
+    }
+    .BannervideoTextDivTextRandom h1{
+        font-size: 18px !important;
+        line-height: 20px;
+        font-weight: 800 !important;
+        letter-spacing: 2px !important;
+    }
+    .BannerButtonDiv{
+        top: 100% !important;
+    }
+    .BannerButton{
+        margin-top: 20px;
+        width: 300px !important;
+    }
+    .BannerButton a{
+        font-size: 10px !important;
+    }
+}

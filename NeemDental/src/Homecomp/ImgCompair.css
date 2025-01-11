@@ -1,0 +1,36 @@
+@font-face {
+    font-family: refirbished;
+    src: url(../Fonts/refirbished.woff2);
+}
+
+.patientcases{
+    font-family: refirbished;
+}
+
+@media only screen and (max-width: 600px){
+    .ImgCompairMain{
+        height: 100% !important;
+        margin-top: 50px !important;
+        /* padding: 5vh 0vh 5vh 0vh; */
+    }
+    .ImgCompairTop{
+        width: 95% !important;
+        /* height: 35vh !important; */
+        text-align: center !important;
+        padding-top: 5vh !important;
+        padding-bottom: 0vh !important;
+        margin-bottom: 15vh !important;
+    }
+    .ImgCompairTop h1{
+        font-size: 45px !important;
+    }
+    .ImgCompairBottom{
+        width: 95% !important;
+        height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-bottom: 5vh !important;
+    }
+}

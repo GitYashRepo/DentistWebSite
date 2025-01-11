@@ -1,0 +1,27 @@
+.storydivmain{
+    background: rgba( 0, 0, 0, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.sliderstory{
+    margin: auto;
+    margin-top: -50px !important;
+    width: 100% !important;
+}
+.sl{
+    width: 100% !important;
+}
+@media only screen and (max-width: 600px){
+    .storydivmain{
+        width: 100% !important;
+    }
+    .sl{
+        width: 100% !important;
+    }
+    .clientnameheading{
+        font-size: 18px !important;
+    }
+}

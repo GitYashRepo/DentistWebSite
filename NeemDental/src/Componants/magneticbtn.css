@@ -1,0 +1,154 @@
+button.magnetic-btn {
+    width: 8vw;
+    padding: 18px 0px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 100 !important;
+    align-items: center;
+    /* font-weight: 300; */
+    /* text-transform: uppercase; */
+    /* background-color: red; */
+    position: relative;
+    overflow: hidden;
+    cursor: pointer !important;
+    margin-right: -60px;
+    transition: border-color 0.2s ease, color 0.2s ease; /* Faster hover transitions */
+  }
+
+  .space {
+    display: inline;
+    padding-left: 10px;
+  }
+
+  button .span-mother {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  button .span-mother span.char {
+    display: inline-block;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); /* Faster transition */
+  }
+
+  button .span-mother2 {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  button .span-mother2 span.char {
+    display: inline-block;
+    transform: translateY(100%);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); /* Faster transition */
+  }
+
+  button:hover .span-mother span.char {
+    transform: translateY(-100%);
+  }
+
+  button:hover .span-mother2 span.char {
+    transform: translateY(0%);
+  }
+
+  button .span-mother span.char:nth-child(1),
+  button .span-mother2 span.char:nth-child(1) {
+    transition-delay: 0s;
+  }
+
+  button .span-mother span.char:nth-child(2),
+  button .span-mother2 span.char:nth-child(2) {
+    transition-delay: 0.02s; /* Faster stagger */
+  }
+
+  button .span-mother span.char:nth-child(3),
+  button .span-mother2 span.char:nth-child(3) {
+    transition-delay: 0.04s;
+  }
+
+  button .span-mother span.char:nth-child(4),
+  button .span-mother2 span.char:nth-child(4) {
+    transition-delay: 0.06s;
+  }
+
+  button .span-mother span.char:nth-child(5),
+  button .span-mother2 span.char:nth-child(5) {
+    transition-delay: 0.08s;
+  }
+
+  button .span-mother span.char:nth-child(6),
+  button .span-mother2 span.char:nth-child(6) {
+    transition-delay: 0.1s;
+  }
+
+  button .span-mother span.char:nth-child(7),
+  button .span-mother2 span.char:nth-child(7) {
+    transition-delay: 0.12s;
+  }
+
+  button .span-mother span.char:nth-child(8),
+  button .span-mother2 span.char:nth-child(8) {
+    transition-delay: 0.14s;
+  }
+
+  button .span-mother span.char:nth-child(9),
+  button .span-mother2 span.char:nth-child(9) {
+    transition-delay: 0.16s;
+  }
+
+  button .span-mother span.char:nth-child(10),
+  button .span-mother2 span.char:nth-child(10) {
+    transition-delay: 0.18s;
+  }
+
+  button .span-mother span.char:nth-child(11),
+  button .span-mother2 span.char:nth-child(11) {
+    transition-delay: 0.20s;
+  }
+
+  button .span-mother span.char:nth-child(12),
+  button .span-mother2 span.char:nth-child(12) {
+    transition-delay: 0.22s; /* Faster stagger */
+  }
+
+  button .span-mother span.char:nth-child(13),
+  button .span-mother2 span.char:nth-child(13) {
+    transition-delay: 0.24s;
+  }
+
+  button .span-mother span.char:nth-child(14),
+  button .span-mother2 span.char:nth-child(14) {
+    transition-delay: 0.26s;
+  }
+
+  button .span-mother span.char:nth-child(15),
+  button .span-mother2 span.char:nth-child(15) {
+    transition-delay: 0.28s;
+  }
+
+  button .span-mother span.char:nth-child(16),
+  button .span-mother2 span.char:nth-child(16) {
+    transition-delay: 0.30s;
+  }
+
+  button .span-mother span.char:nth-child(17),
+  button .span-mother2 span.char:nth-child(17) {
+    transition-delay: 0.32s;
+  }
+
+  button .span-mother span.char:nth-child(18),
+  button .span-mother2 span.char:nth-child(18) {
+    transition-delay: 0.34s;
+  }
+
+  button .span-mother span.char:nth-child(19),
+  button .span-mother2 span.char:nth-child(19) {
+    transition-delay: 0.36s;
+  }
+
+  button .span-mother span.char:nth-child(20),
+  button .span-mother2 span.char:nth-child(20) {
+    transition-delay: 0.38s;
+  }

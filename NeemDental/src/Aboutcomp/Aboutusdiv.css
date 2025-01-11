@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url('../Fonts/LibreFranklin/LibreFranklin-Regular.ttf');
+  }
+
+.aboutpagehead{
+    font-family: LibreFranklin !important;
+    font-weight: 100 !important;
+}
+
+.img1aboutus{
+    object-fit: cover;
+    scale: 1.2;
+}
+
+.img2{
+    margin-top: -40px;
+    width: 100% !important;
+    object-fit: cover !important;
+    scale: 1.01 !important;
+    object-position: 0% 0%;
+}
+
+@media only screen and (max-width: 600px) {
+    .AboutusdivMain{
+        height: 100% !important;
+    }
+    .AboutusdivTwo,.AboutusdivThree{
+        height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .aboutpagehead{
+        font-size: 45px !important;
+    }
+
+    .AboutusdivTwo div,.AboutusdivThree div{
+        width: 100% !important;
+    }
+
+    .AboutusdivFourInner{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    [data-scroll] {
+        transform: none !important;
+        transition: none !important;
+    }
+
+    [data-scroll-speed] {
+        transform: none !important;
+        transition: none !important;
+    }
+}

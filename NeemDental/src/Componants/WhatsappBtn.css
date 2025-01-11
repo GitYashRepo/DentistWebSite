@@ -1,0 +1,12 @@
+.whatsappbtndiv{
+    position: fixed;
+    top: 60% !important;
+    left: 20px !important;
+    z-index: 99 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .whatsappbtndiv{
+        display: none !important;
+    }
+}

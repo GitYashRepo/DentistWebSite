@@ -1,0 +1,39 @@
+.appbutton {
+    padding: 15px 25px;
+    border: unset;
+    color: #ffffff;
+    z-index: 1;
+    background: #a48265;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 350ms;
+    overflow: hidden;
+   }
+
+   .appbutton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #212121;
+    z-index: -1;
+    transition: all 350ms
+   }
+
+   .appbutton:hover {
+    color: #e8e8e8;
+   }
+
+   .appbutton:hover::before {
+    width: 100%;
+   }
+
+@media only screen and (max-width: 600px){
+    .appbutton{
+        padding: 10px 17px;
+        font-size: 15px !important;
+    }
+}

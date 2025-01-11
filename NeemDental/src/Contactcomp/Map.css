@@ -1,0 +1,19 @@
+.contactbanimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    .MapInnerOne{
+        padding-top: 3vh !important;
+    }
+    .MapInnerThree{
+        padding-bottom: 4vh !important;
+    }
+    .MapInnerFour iframe{
+        width: 100% !important;
+        height: 40vh !important;
+    }
+}

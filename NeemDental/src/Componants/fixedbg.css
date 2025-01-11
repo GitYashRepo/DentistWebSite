@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html,body {
+  height: 100%;
+} */
+
+.wrapper {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.fixed-bg h1 {
+  vertical-align: middle;
+}
+
+.scroll-bg {
+  background-color: #0f0f0a;
+  padding: 40vh 70px;
+  color: #676767;
+  height: 100%;
+}
+
+.scroll-bg2 {
+  padding: 50px 0px;
+  color: #676767;
+  height: 100%;
+}
+
+.bannertextmaintwo{
+background: rgba( 0, 0, 0, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.9 );
+}
+
+/* first section */
+
+.bg-1 {
+  /* background-image: url('https://www.dl.dropboxusercontent.com/s/dk3s266jb5klmba/bg1.jpg'); */
+  background-image: url('../assets/NeemEditedPics/img2.png');
+}
+
+/* third section */
+
+.bg-2 {
+  /* background-image: url('https://www.dl.dropboxusercontent.com/s/jcord1lxh30e02z/bg2.jpg'); */
+  background-image: url('../assets/NeemEditedPics/img10.png');
+  opacity: 40;
+  color: black !important;
+}
+
+/* fifth section */
+
+
+@media only screen and (max-width: 600px) {
+    .bannertextmaintwo{
+        font-size: 18px !important;
+        letter-spacing: 4px !important;
+    }
+    .bannertextmaintwotwo{
+        line-height: 20px !important;
+    }
+    .bannertextmaintwo{
+        background: rgba( 0, 0, 0, 0.8 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.9 );
+    }
+}

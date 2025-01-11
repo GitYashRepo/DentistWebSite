@@ -1,0 +1,76 @@
+@font-face {
+    font-family: refirbished;
+    src: url(../Fonts/refirbished.woff2);
+}
+
+.btnTextCompAboutus .arrow{
+    background-color: #2276bf !important;
+}
+
+.neemdentalclinic{
+    font-family: refirbished;
+    padding-bottom: 30px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 95% !important;
+        height: 100% !important;
+    }
+    .containerInner{
+        width: 100% !important;
+        height: 100% !important;
+        display: flex;
+        flex-direction:column-reverse !important;
+    }
+
+    .containerInner div{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .CompAboutusImageDiv{
+        width: 100%;
+        height: 50vh !important;
+        overflow: hidden !important;
+    }
+
+    .CompAboutusImage{
+        margin-top: 50px !important;
+        height: 50vh !important;
+        margin-bottom: 50px !important;
+    }
+
+    .containerInnerTextCont{
+        width: 100% !important;
+        text-align: justify !important;
+    }
+
+    .givendiv{
+        width: 100% !important;
+    }
+
+    .TimingDiv{
+        width: 100% !important;
+        /* border: 1px solid black; */
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .TimeIconDiv{
+        width: 20% !important;
+        /* border: 1px solid green; */
+    }
+    /*.TimeIconDiv span{
+        width: 50px !important;
+        border: 1px solid blue;
+        padding-right: 0px !important;
+        margin-right: 0px !important;
+    }*/
+    .timetext{
+        width: 80% !important;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        margin-left: -200px;
+    }
+}

@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+    .FooterMain{
+        position: relative !important;
+        width: 95% !important;
+        height: 100% !important;
+    }
+    .FooterInner{
+        width: 100% !important;
+        height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding-bottom: 5vh !important;
+    }
+    .FooterInnerDes{
+        font-size: 20px !important;
+    }
+    .FooterInnerLinks{
+        display: flex !important;
+        flex-direction: column !important;
+        font-size: 25px !important;
+    }
+
+    .FooterLastDiv{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .FooterLastDivTwo{
+        margin-top: 20px !important;
+    }
+
+    .FooterLastDivTwo p{
+        font-size: 22px !important;
+    }
+    .FooterLastDivTwo p a{
+        font-size: 25px !important;
+    }
+
+    .FooterLastDivTwo span{
+        display: none !important;
+    }
+}

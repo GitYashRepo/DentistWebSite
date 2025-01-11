@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    .AboutTeamMain{
+        height: 100% !important;
+        margin-top: 5vh !important;
+        /* position: relative !important; */
+        /* margin-bottom: 230vh !important; */
+    }
+    .AboutTeamOne{
+        max-width: 100% !important;
+        height: 100% !important;
+    }
+    .AboutTeamTwo{
+        height: 100% !important;
+    }
+    .AboutTeamTwo div{
+        position: relative !important;
+    }
+}

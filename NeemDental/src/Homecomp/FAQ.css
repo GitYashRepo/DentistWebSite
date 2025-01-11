@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    .faqMain{
+        margin-top: 0vh !important;
+        padding-top: 0px !important;
+    }
+    .faqTop{
+        padding-top: 5vh !important;
+    }
+    .faqBottom{
+        padding-top: 5vh !important;
+    }
+}

@@ -1,0 +1,73 @@
+.slidermain{
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+
+.slick-arrow:before{
+    color: #313131;
+    font-size: 50px;
+}
+
+.slick-prev{
+    top: -60px;
+    left: 87%;
+}
+
+.slick-next {
+    right: 5%;
+    top: -60px;
+}
+
+.Docimages{
+    scale: 1.2 !important;
+    object-fit: cover !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .SliderCompMain{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .PhoneDiv{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .SliderCompReact{
+        display: none !important;
+    }
+    .slidermainPhone{
+        width: 100% !important;
+        height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .slidermainImgDivPhone, .slidermainBottomPhone{
+        width: 100% !important;
+    }
+    .slidermainImgDivPhone{
+        height: 30vh !important;
+        margin-top: 20px !important;
+    }
+    .slidermainBottomPhone{
+        margin-left: 0px !important;
+        margin-top: 20px !important;
+    }
+    .DocimagesPhone{
+        margin-top: 0px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .slidermainBottomPhone{
+        margin-top: 10px !important;
+    }
+
+    .slidermainBottomPhoneDescription{
+        margin-top: 30px !important;
+    }
+
+    .slidermainBottomPhoneDescription{
+        font-size: 20px !important;
+    }
+}
